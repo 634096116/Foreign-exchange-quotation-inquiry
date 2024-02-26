@@ -1,0 +1,17 @@
+selenium 4.1.1
+
+这是中国银行外汇牌价网站：https://www.boc.cn/sourcedb/whpj/
+请使用python3 和 selenium库写一个程序，实现以下功能：
+输入：日期、货币代号
+输出：该日期该货币的“现汇卖出价”
+示例：
+python3 yourcode.py 20211231 USD
+输出：636.99
+该日期有很多个价位，只需要输出任意一个时间点的价位即可。
+货币代号为USD、EUR这样的三位英文代码，请参考这里的标准符号：https://www.11meigui.com/tools/currency
+
+
+需要把Edge浏览器的驱动放于python根目录下（使用where Python进行查找）才可运行
+
+输入python pyproject.py 20211231 USD 
+输出为：现汇卖出价为：636.99
